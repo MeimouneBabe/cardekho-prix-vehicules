@@ -1,0 +1,46 @@
+{
+  "Régression Linéaire": {
+    "r2": 0.5895,
+    "mae": 149064.0,
+    "rmse": 195105.0,
+    "cv_r2_mean": 0.5711,
+    "cv_r2_std": 0.0241
+  },
+  "Random Forest": {
+    "r2": 0.7265,
+    "mae": 111447.0,
+    "rmse": 159247.0,
+    "cv_r2_mean": 0.7214,
+    "cv_r2_std": 0.0144,
+    "best_params": {
+      "max_depth": 10,
+      "min_samples_split": 5,
+      "n_estimators": 200
+    }
+  },
+  "XGBoost": {
+    "r2": 0.7541,
+    "mae": 107415.0,
+    "rmse": 151003.0,
+    "cv_r2_mean": 0.746,
+    "cv_r2_std": 0.0101,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 4,
+      "n_estimators": 200,
+      "subsample": 0.8
+    }
+  },
+  "SVR": {
+    "r2": -0.0104,
+    "mae": 224191.0,
+    "rmse": 306115.0,
+    "cv_r2_mean": -0.0067,
+    "cv_r2_std": 0.019,
+    "best_params": {
+      "C": 100,
+      "epsilon": 1.0,
+      "gamma": "auto"
+    }
+  }
+}
