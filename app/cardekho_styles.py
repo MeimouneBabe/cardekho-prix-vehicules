@@ -558,6 +558,162 @@ div[data-testid="stRadio"] [data-baseweb="radio"] > div:last-child p {
     color: var(--ink);
 }
 
+/* ── FORMAT INFO CARD (Tab 2) ──────────────────────────────── */
+.format-card {
+    background: #FEF9EC;
+    border: 1px solid rgba(194,113,12,0.25);
+    border-left: 3px solid var(--amber);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+.format-card-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.format-row {
+    font-size: 13px;
+    color: var(--ink2);
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+.format-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    background: var(--amber);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-right: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.format-note {
+    font-size: 12px;
+    color: var(--ink3);
+    margin-top: 10px;
+    font-style: italic;
+}
+.format-card code {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    background: rgba(0,0,0,0.06);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--ink2);
+}
+
+/* ── SUMMARY CARDS (Tab 3 left) ────────────────────────────── */
+.summary-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.summary-card--best {
+    background: var(--teal);
+    border-color: var(--teal);
+}
+.summary-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.summary-card-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+}
+.summary-card--best .summary-card-name {
+    color: white;
+}
+.summary-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+.summary-card-r2 {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--ink3);
+}
+.summary-card--best .summary-card-r2 {
+    color: rgba(255,255,255,0.7);
+}
+
+/* ── CONCLUSION CARD (Tab 3 left) ──────────────────────────── */
+.conclusion-card {
+    background: var(--teal-light);
+    border: 1px solid rgba(13,110,104,0.2);
+    border-left: 3px solid var(--teal);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+}
+.conclusion-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--teal);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.conclusion-card p {
+    font-size: 13px;
+    color: var(--ink2);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── ANALYSIS CARDS (Tab 3 right) ──────────────────────────── */
+.analysis-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+}
+.analysis-card--best {
+    border-color: var(--teal);
+    border-left: 3px solid var(--teal);
+}
+.analysis-card-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 8px;
+}
+.analysis-card--best .analysis-card-title {
+    color: var(--teal);
+}
+.analysis-card ul {
+    margin: 0;
+    padding-left: 16px;
+}
+.analysis-card li {
+    font-size: 12px;
+    color: var(--ink2);
+    line-height: 1.7;
+}
+
 /* ── VARIABLE IMPORTANCE BARS ──────────────────────────────── */
 .fi-row {
     display: flex;
